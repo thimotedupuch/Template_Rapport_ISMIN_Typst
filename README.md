@@ -1,4 +1,6 @@
-# Template Rapport ISMIN Typst - Pour celles & ceux qui veulent un beau rapport fait en LaTeX, sans faire en LaTeX
+# Template Rapport ISMIN Typst 
+
+## Pour celles & ceux qui veulent un beau rapport fait en LaTeX, sans faire en LaTeX
 
 Le fichier `resultat.pdf` est un aperçu PDF du template non modifié.
 
