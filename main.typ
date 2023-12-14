@@ -7,7 +7,7 @@
 
 #show raw: x=>rect(
   radius: 5pt,
-  fill:luma(240),
+  fill:luma(245),
   stroke:0.7pt+black,
   width: 100%,
   text(font: "Cascadia Code",weight: "medium",size:8pt,x)
@@ -60,8 +60,15 @@
 
 #pagebreak()
 
-#set page(margin: auto)
+#set page(margin: auto,numbering: "1")
 #set par(justify: true)
+
+// Configuration de l'en-tête de page
+#set page(header: [
+  #smallcaps[Titre du projet] // à modifier
+  #line(length: 100%,stroke: 0.5pt)
+])
+
 
 #outline() // c'est la table des matières
 // #pagebreak() // Pour passer à la page suivante
@@ -94,7 +101,7 @@ On peut aussi écrire des bouts de code :
 
 
 
-```py
+```python
 import numpy as np
 
 def FahrenheitToCelsius(T):
